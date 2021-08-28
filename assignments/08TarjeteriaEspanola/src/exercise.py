@@ -1,9 +1,9 @@
 def tarjetas(pliegos,plumones):
     
-    tarjetasPliegos = pliegos*12
-    tarjetasPlumones = plumones*35
+    tarjetasPliegos = pliegos *12
+    tarjetasPlumones = plumones *35
 
-    if tarjetasPliegos<=tarjetasPlumones:
+    if tarjetasPliegos <= tarjetasPlumones:
         return tarjetasPliegos
     else:
         return tarjetasPlumones
@@ -15,7 +15,7 @@ def main():
 
     r = tarjetas(pli,plu)
 
-    print("El número máximo de tarjetas que se pueden hacer es:",r)
+    print("El número máximo de tarjetas que se pueden hacer es:", r)
 
 if __name__=='__main__':
     main()
